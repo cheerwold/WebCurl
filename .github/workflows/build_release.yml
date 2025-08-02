@@ -71,3 +71,5 @@ jobs:
           name: ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           files: webcurl-*.zip
+          overwrite: true
+          
